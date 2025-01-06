@@ -1,0 +1,5 @@
+module CSystemdJournal [system] {
+    header "CSystemdJournal.h"
+    link "systemd"
+    export *
+}
